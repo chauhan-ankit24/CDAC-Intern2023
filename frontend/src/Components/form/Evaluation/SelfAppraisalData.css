@@ -1,0 +1,65 @@
+.SelfAppraisalData_wrapper{
+  /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 50%;
+    transform: translate(50% , 0);
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+.SelfAppraisalData_wrapper-tr{
+  transform: translate(100% , 0);
+}
+
+.Emp_details{
+    margin-top: 1rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .cross-button {
+    border: none;
+    background: none;
+    color: #333;
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    cursor: pointer;
+  }
+  
+  .cross-button:hover {
+    color: #ff0000;
+  }
+  
+  .form-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .form-table th,
+  .form-table td {
+    padding: 8px;
+    border: 1px solid #2c2020;
+  }
+  
+  .form-table th {
+    background-color: #e1dddd;
+    text-align: left;
+  }
+  
+  .form-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .SNo{
+    width: 10%;
+  }
+  

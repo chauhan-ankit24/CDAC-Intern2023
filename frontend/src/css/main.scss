@@ -1,0 +1,17 @@
+.main-app-hr{
+
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .outlet {
+    width: 100vw;
+  }
+}
+.main-app-emp {
+  height: 90vh;
+  display: flex;
+  .outlet {
+    width: 100vw;
+  }
+}

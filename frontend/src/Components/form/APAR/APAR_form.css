@@ -1,0 +1,185 @@
+.container_apar {
+  background-color: #f2f2f2;
+  border: 1px solid rgba(57, 93, 138, 0.358);
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin: 1% 20%;
+  text-align: center;
+  margin: auto;
+
+}
+
+.inpt {
+  width: 50%;
+  padding: 0.5rem;
+  border: 1px solid #9fc8fe;
+  background: #ffffff;
+  background-blend-mode: multiply;
+  border: 1px solid #9fc8fe;
+  border-radius: 5px;
+  margin: 8px 0;
+
+}
+
+.inpt:focus {
+  outline: 0;
+}
+
+.btn_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitbtn_apar {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  background-color: #404e67;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: #404e67;
+  color: white;
+  padding: 3px;
+}
+
+
+.Edit_lock {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+
+.Table_rows_APAR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  /* border: 2px solid green; */
+
+}
+
+.Table_rows_APAR-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spantype {
+  display: flex;
+  width: 30%;
+  margin-left: 1%;
+  text-align: left;
+
+}
+
+.inpt {
+  display: flex;
+  width: 65%;
+
+}
+
+.inpt_periodbox {
+  display: flex;
+  width: 65%;
+  gap: 1.5em;
+}
+
+.period {
+  margin-top: 4%;
+  display: flex;
+  gap: 0.5em;
+
+}
+.Table_rows_APAR2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  /* border: 2px solid green; */
+
+}
+/* 
+.reporting_title {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+
+
+} */
+
+
+.from_apar {
+  display: flex;
+  width: 50%;
+
+}
+
+.to_apar {
+  display: flex;
+  width: 50%;
+
+}
+
+.inpt_period {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid #9fc8fe;
+  background: #ffffff;
+  background-blend-mode: multiply;
+  border: 1px solid #9fc8fe;
+  border-radius: 5px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+
+.error input {
+  border: 2px solid red;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid blue; */
+  font-size: .6rem;
+  justify-content: flex-end;
+}
+
+.error-message {
+  color: red;
+  margin-right: 5px;
+}
+
+.error-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+}

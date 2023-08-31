@@ -1,0 +1,42 @@
+@import './variable';
+.side-bar{
+    width: 18rem;
+    box-shadow: 0 1px 2px rgba(51, 51, 51, 0.397);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-transform: capitalize;
+    overflow: hidden;
+    background-color: #404e67;
+    transition: all 0.2s ease-in-out;
+    min-height: 91vh;
+    .sidebar-item{
+        padding: 0 0.5rem;
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+        border-radius: 25px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        text-decoration: none;
+        color: #fff;
+
+        &:hover{
+            background: $hover-color;
+            background: #fff;
+            color: #1c1c1c;
+        }
+        i{
+            font-size: 1.2rem;
+            padding: 0.7rem 0.8rem;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s linear;
+        }
+    }
+
+   
+}
+.open{
+    width: 3.5rem;
+}

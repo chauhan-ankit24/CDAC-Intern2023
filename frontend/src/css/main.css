@@ -1,0 +1,17 @@
+.main-app-hr {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-app-hr .outlet {
+  width: 100vw;
+}
+
+.main-app-emp {
+  height: 90vh;
+  display: flex;
+}
+.main-app-emp .outlet {
+  width: 100vw;
+}/*# sourceMappingURL=main.css.map */
